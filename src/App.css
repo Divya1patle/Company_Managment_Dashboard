@@ -1,0 +1,33 @@
+
+
+.demo-loadmore-list {
+  min-height: 350px;
+}
+
+::placeholder {
+  font-weight: bolder;
+}
+
+/* index.css */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure the layout takes up the full viewport height */
+}
+
+.layout-content {
+  display: flex;
+  flex: 1; /* Ensure the content area stretches */
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto; /* Allows scrolling if content overflows */
+}
